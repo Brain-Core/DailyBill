@@ -46,12 +46,13 @@ create table t_salaire
 
 create table t_prestation
 (
+	id varchar(50) not null,
 	id_journalier int not null,
 	id_service int not null,
 	date_prestation date,
 	heure_debut text,
 	heure_fin text
-	constraint pk_prestation primary key(id_journalier, id_service)
+	constraint pk_prestation primary key(id)
 
 )
 
