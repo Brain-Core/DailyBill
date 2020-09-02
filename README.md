@@ -31,3 +31,11 @@ The project is public
 - Github: ? [@?](https://github.com/?)
 - Twitter: [?](https://twitter.com/?)
 - Linkedin: [Marie Mibanga](https://www.linkedin.com/in/?-8271b519a/)
+
+## 🤝Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
