@@ -118,7 +118,7 @@ begin
 	if not exists(select * from t_journalier where id = @id)
 		insert into t_journalier values(@id, @nom, @postnom, @prenom, @lieu_naissance, @date_naissance, @etat_civil, @piece_identite, @numero_piece_identite)
 	else
-		update t_journalier set nom = @nom, postnom = @postnom, prenom = @prenom, lieu_naissance = @lieu_naissance, date_naissance = @date_naissance, etat_civil = @etat_civil, piece_identite = @piece_identite, numero_piece_identite = @numero_piece_identite where is = @id
+		update t_journalier set nom = @nom, postnom = @postnom, prenom = @prenom, lieu_naissance = @lieu_naissance, date_naissance = @date_naissance, etat_civil = @etat_civil, piece_identite = @piece_identite, numero_piece_identite = @numero_piece_identite where id = @id
 end
 
 
@@ -127,7 +127,7 @@ create procedure sp_update_service
 (
 	@id int,
 	@serviceItem varchar(100),
-	@descriptionItem text,
+	@descriptionItem text
 )
 as
 begin
@@ -150,7 +150,7 @@ create procedure sp_update_prestation
 )
 as
 begin
-	declare @id_journalier int = (select id from t_journalier where concat(name,' 'postnom,' ' prenom) = @journalier)
+	declare @id_journalier int = (select id from t_journalier where concat(nom,' ',postnom,' ',prenom) = @journalier)
 	declare @id_service int = (select id from t_service where serviceItem = @service)
 	if not exists(select * from t_prestation where id = @id)
 		insert into t_prestation values(@id, @id_journalier, @id_service, @date_prestation, @heure_debut, @heure_fin)
@@ -189,9 +189,6 @@ create procedure sp_update_paiement
 )
 as
 begin
-	declare @id_journalier int = (select id from t_journalier where concat(name,' 'postnom,' ' prenom) = @journalier)
-	if not exists(select * from t_paiement where id = @id)
+	declare @id_journalier int = (select id from t_journalier where concat(nom,' ',postnom,' ',prenom) = @journalier)
 		insert into t_paiement values(@id_journalier, @id_prestation, @date_paiement, @montant, @u_name)
-	else
-		update t_paiement set id_journalier = @id_journalier, id_prestation = @id_prestation, montant = @montant, u_name = @u_name where id = @id
 end
