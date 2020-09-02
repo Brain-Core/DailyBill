@@ -4,6 +4,8 @@ create database db_DailyBill
 go
 use db_DailyBill
 
+---------- Creation des Tables
+
 create table t_user
 (
 	u_name varchar(100) not null,
@@ -59,8 +61,12 @@ create table t_prestation
 create table t_paiement
 (
 	id int not null identity(1,1),
+	id_journalier int not null,
+	id_prestation varchar(50) not null,
 	date_paiement date,
 	montant float not null,
 	u_name varchar(100) not null,
 	constraint pk_paiement primary key(id)
 )
+
+
