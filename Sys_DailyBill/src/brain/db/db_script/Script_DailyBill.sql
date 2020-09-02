@@ -70,3 +70,16 @@ create table t_paiement
 )
 
 
+---------- Autres contraintes
+
+alter table t_journalier add constraint Unique_Name unique(nom, postnom, prenom,numero_piece_identite)
+alter table t_service add constraint Unique_Service unique(serviceItem)
+alter table t_salaire add constraint Unique_Salaire unique(salaireItem)
+
+alter table t_prestation add constraint fk_journalier_prestation foreign key (id_journaliere) references t_journalier(id) on delete no action
+alter table t_prestation add constraint fk_service_prestation foreign key (id_service) references t_service(id) on delete no action
+
+alter table t_paiement add constraint fk_journalier_paiement foreign key (id_journalier) references t_journalier(id) on delete no action
+alter table t_paiement add constraint fk_prestation_paiement foreign key (id_prestation) references t_prestation(id) on delete no action
+alter table t_paiement add constraint fk_user_paiement foreign key (u_name) references t_user(u_name) on delete no action
+
