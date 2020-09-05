@@ -3,6 +3,16 @@ Package brain.model;
 public Class ClsJournalier implement IAction
 {
 
+    private int id;
+    private String nom;
+    private String postnom;
+    private String prenom;
+    private String lieu_naissance;
+    private Date date_naissance;
+    private String etat_civil;
+    private String piece_identite;
+    private String numero_piece_identite;
+
     public ClsJournalier(int id, String nom, String postnom, String prenom, String lieu_naissance, Date date_naissance, String etat_civil, String piece_identite, String numero_piece_identite)
     {
         this.id = id;
@@ -10,7 +20,6 @@ public Class ClsJournalier implement IAction
         this.postnom = postnom;
         this.prenom = prenom;
         this.lieu_naissance = lieu_naissance;
-        this.date_naissance = date_naissance;
         this.date_naissance = date_naissance;
         this.etat_civil = etat_civil;
         this.piece_identite = piece_identite;

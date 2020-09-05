@@ -2,6 +2,11 @@ Package brain.model;
 
 public Class ClsService implement IAction
 {
+
+    private int id;
+    private String serviceItem;
+    private String descriptionItem;
+
     public ClsService(int id, String serviceItem, String descriptionItem)
     {
         this.id = id;
