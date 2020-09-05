@@ -26,6 +26,12 @@ The project is public
 - Twitter: [@paulmupenda](https://twitter.com/paulmupenda)
 - Linkedin: [Paul Mupenda](https://www.linkedin.com/in/paul_mupenda-8271b519a/)
 
+👤 Gloire Shukuru
+
+- Github: @glotec [@glotec](https://github.com/glotec)
+- Twitter: [@glotec](https://twitter.com/glotec)
+- Linkedin: [Gloire Shukuru](https://www.linkedin.com/in/gloire_shukuru-8271b519a/)
+
 👤 Marie Mibanga
 
 - Github: ? [@?](https://github.com/?)
