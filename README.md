@@ -30,7 +30,7 @@ The project is public
 
 - Github: @glotec [@glotec](https://github.com/glotec)
 - Twitter: [@glotec](https://twitter.com/glotec)
-- Linkedin: [Gloire Shukuru](https://www.linkedin.com/in/gloire_shukuru-8271b519a/)
+- Linkedin: [Gloire Shukuru](https://www.linkedin.com/in/shukuru-gloire-714222187/)
 
 👤 Marie Mibanga
 
