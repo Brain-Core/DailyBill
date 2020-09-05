@@ -3,11 +3,8 @@ package brain.model;
 
 import java.sql.Date;
 
-
 public class ClsPrestation {
-    
-    
-    
+      
     private String id ;
     private ClsJournalier Journalier ;
     private ClsService service ;
@@ -71,9 +68,5 @@ public class ClsPrestation {
     public void setHeure_fin(String heure_fin) {
         this.heure_fin = heure_fin;
     }
-    
-    
-    
-            
-    
+     
 }

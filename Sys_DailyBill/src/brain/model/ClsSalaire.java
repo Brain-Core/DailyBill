@@ -1,10 +1,8 @@
 
 package brain.model;
 
-
 public class ClsSalaire {
     
-   
     private int id ;
     private String  salaireItem ;
     private String descriptionItem ;
@@ -59,7 +57,4 @@ public class ClsSalaire {
         this.service = service;
     }
     
-    
-    
-	
 }

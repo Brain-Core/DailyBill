@@ -3,9 +3,7 @@ package brain.model;
 
 import java.sql.Date;
 
-
 public class ClsPaiement {
-    
     
     private int id;
     private ClsJournalier Journalier;
@@ -69,8 +67,6 @@ public class ClsPaiement {
 
     public void setUName(ClsAgent UName) {
         this.UName = UName;
-    }
-            
-            
+    }        
     
 }
