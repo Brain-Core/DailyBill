@@ -79,7 +79,7 @@ public class ClsHelper {
     
     public static int Increment_ID(String table) throws Exception
     {        
-        pst = DbConnect.connectDb().prepareStatement("SELECT COALESCE(MAX(id),0) FROM "+table+"");
+        pst = DbConnect.connectDb().prepareStatement("SELECT COALESCE(MAX(id),0) FROM "+table+" ");
         rs = pst.executeQuery();
         while (rs.next())
         {
