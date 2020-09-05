@@ -1,6 +1,8 @@
-Package brain.model;
+package brain.models;
 
-public Class ClsService implement IAction
+import brain.controller.IAction;
+
+public class ClsService implements IAction
 {
 
     private int id;
@@ -42,5 +44,15 @@ public Class ClsService implement IAction
     public void setDescriptionItem(String descriptionItem) 
     {
         this.descriptionItem = descriptionItem;    
+    }
+
+    @Override
+    public boolean updateData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean deleteData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

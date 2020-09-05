@@ -1,9 +1,10 @@
 
-package brain.model;
+package brain.models;
 
+import brain.controller.IAction;
 import java.sql.Date;
 
-public class ClsPrestation {
+public class ClsPrestation implements IAction{
       
     private String id ;
     private ClsJournalier Journalier ;
@@ -67,6 +68,16 @@ public class ClsPrestation {
 
     public void setHeure_fin(String heure_fin) {
         this.heure_fin = heure_fin;
+    }
+
+    @Override
+    public boolean updateData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean deleteData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
      
 }

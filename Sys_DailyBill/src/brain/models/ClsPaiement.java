@@ -1,26 +1,26 @@
 
-package brain.model;
-
+package brain.models;
+import brain.controller.IAction;
 import java.sql.Date;
 
-public class ClsPaiement {
+public class ClsPaiement implements IAction{
     
     private int id;
     private ClsJournalier Journalier;
     private ClsPrestation prestation;
     private Date datePaiement;
     private float montant;
-    private ClsAgent UName;
+    private ClsUser user;
 
-    public ClsPaiement(int id, ClsJournalier Journalier, ClsPrestation prestation, Date datePaiement, float montant, ClsAgent UName) {
+    public ClsPaiement(int id, ClsJournalier Journalier, ClsPrestation prestation, Date datePaiement, float montant, ClsUser user) {
         this.id = id;
         this.Journalier = Journalier;
         this.prestation = prestation;
         this.datePaiement = datePaiement;
         this.montant = montant;
-        this.UName = UName;
+        this.user = user;
     }
-
+    
     public int getId() {
         return id;
     }
@@ -61,12 +61,21 @@ public class ClsPaiement {
         this.montant = montant;
     }
 
-    public ClsAgent getUName() {
-        return UName;
+    public ClsUser getUser() {
+        return user;
     }
 
-    public void setUName(ClsAgent UName) {
-        this.UName = UName;
-    }        
+    public void setUser(ClsUser user) {
+        this.user = user;
+    }
     
+    @Override
+    public boolean updateData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean deleteData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

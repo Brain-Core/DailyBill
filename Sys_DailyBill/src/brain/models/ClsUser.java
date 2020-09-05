@@ -1,6 +1,8 @@
-Pakage brain.model;
+package brain.models;
 
-public Class ClsUser implement IAction
+import brain.controller.IAction;
+
+public class ClsUser implements IAction
 {
     private String u_name;
     private String u_pass;
@@ -41,6 +43,16 @@ public Class ClsUser implement IAction
     private void setUAccreditatin(String u_accreditation) 
     {
         this.u_accreditation = u_accreditation;    
+    }
+
+    @Override
+    public boolean updateData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean deleteData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

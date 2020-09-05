@@ -1,7 +1,9 @@
 
-package brain.model;
+package brain.models;
 
-public class ClsSalaire {
+import brain.controller.IAction;
+
+public class ClsSalaire implements  IAction{
     
     private int id ;
     private String  salaireItem ;
@@ -55,6 +57,16 @@ public class ClsSalaire {
 
     public void setService(ClsService service) {
         this.service = service;
+    }
+
+    @Override
+    public boolean updateData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean deleteData() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
