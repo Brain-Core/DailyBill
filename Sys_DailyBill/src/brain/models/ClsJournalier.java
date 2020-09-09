@@ -119,6 +119,6 @@ public class ClsJournalier implements IAction
 
     @Override
     public boolean deleteData() throws Exception {
-        return brain.controller.ClsUpdate.deleteData(this);
+        return brain.controller.ClsUpdate.fx_IdeleteData("t_journalier", getId());
     }
 }
