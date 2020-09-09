@@ -48,11 +48,11 @@ public class ClsService implements IAction
 
     @Override
     public boolean updateData() throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return brain.controller.ClsUpdate.updateData(this);
     }
 
     @Override
     public boolean deleteData() throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return brain.controller.ClsUpdate.deleteData(this);
     }
 }
