@@ -34,9 +34,9 @@ The project is public
 
 👤 Marie Mibanga
 
-- Github: ? [@?](https://github.com/?)
-- Twitter: [?](https://twitter.com/?)
-- Linkedin: [Marie Mibanga](https://www.linkedin.com/in/?-8271b519a/)
+- Github: @mariemibanga [@mariemibanga](https://github.com/mariemibanga)
+- Twitter: [@mariemibanga](https://twitter.com/mariemibanga)
+- Linkedin: [Marie Mibanga](https://www.linkedin.com/in/marie-mibanga?-8271b519a/)
 
 ## 🤝Contributing
 
