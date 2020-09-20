@@ -24,13 +24,13 @@ The project is public
 
 - Github: @paulmupenda [@paulmupenda](https://github.com/paulmupenda)
 - Twitter: [@paulmupenda](https://twitter.com/paulmupenda)
-- Linkedin: [Paul Mupenda](https://www.linkedin.com/in/paul_mupenda-8271b519a/)
+- Linkedin: [Paul Mupenda](https://www.linkedin.com/in/paul-mupenda/?originalSubdomain=cd)
 
 👤 Marie Mibanga
 
-- Github: ? [@?](https://github.com/?)
-- Twitter: [?](https://twitter.com/?)
-- Linkedin: [Marie Mibanga](https://www.linkedin.com/in/?-8271b519a/)
+- Github: ? [@mariemibanga](https://github.com/mariemibanga)
+- Twitter: [mariemibanga](https://twitter.com/mariemibanga)
+- Linkedin: [Marie Mibanga](https://www.linkedin.com/in/marie_mibanga-8271b519a/)
 
 ## 🤝Contributing
 
