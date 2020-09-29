@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package brainaden.view;
+package brain.view;
 
 //import brainaden.metier.ClsCategorie;
-import brainaden.view.Dialog.DlgOutils;
+//import brain.view.Dialog.DlgOutils;
 import javax.swing.JOptionPane;
 
 /**
@@ -97,10 +97,10 @@ public class frmLogin extends javax.swing.JFrame {
         });
 
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/brainaden/view/Img/loginUser.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/brain/view/Img/loginUser.png"))); // NOI18N
 
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/brainaden/view/Img/loginKey.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/brain/view/Img/loginKey.png"))); // NOI18N
 
         org.jdesktop.swingx.border.DropShadowBorder dropShadowBorder5 = new org.jdesktop.swingx.border.DropShadowBorder();
         dropShadowBorder5.setShowRightShadow(false);
@@ -169,7 +169,7 @@ public class frmLogin extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(21, 111, 16));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/brainaden/view/Img/closeWhite.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/brain/view/Img/closeWhite.png"))); // NOI18N
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel4MouseClicked(evt);
@@ -180,7 +180,7 @@ public class frmLogin extends javax.swing.JFrame {
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 680, 189));
 
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/brainaden/view/Img/setup.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/brain/view/Img/setup.png"))); // NOI18N
         jLabel7.setToolTipText("Outils Connexion au Server");
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

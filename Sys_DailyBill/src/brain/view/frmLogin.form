@@ -207,7 +207,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/brainaden/view/Img/loginUser.png"/>
+                  <Image iconType="3" name="/brain/view/Img/loginUser.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -215,7 +215,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/brainaden/view/Img/loginKey.png"/>
+                  <Image iconType="3" name="/brain/view/Img/loginKey.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -261,7 +261,7 @@
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/brainaden/view/Img/closeWhite.png"/>
+                  <Image iconType="3" name="/brain/view/Img/closeWhite.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -279,7 +279,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/brainaden/view/Img/setup.png"/>
+              <Image iconType="3" name="/brain/view/Img/setup.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Outils Connexion au Server"/>
           </Properties>
