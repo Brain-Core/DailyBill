@@ -20,6 +20,7 @@ create table t_journalier
 	nom varchar(50) not null,
 	postnom varchar(50) not null,
 	prenom varchar(50) not null,
+	sexe varchar(50),
 	lieu_naissance text,
 	date_naissance date,
 	etat_civil varchar(100),
@@ -107,6 +108,7 @@ create procedure sp_update_journalier
 	@nom varchar(50),
 	@postnom varchar(50),
 	@prenom varchar(50),
+	@sexe varchar(50),
 	@lieu_naissance text,
 	@date_naissance date,
 	@etat_civil varchar(100),
@@ -116,9 +118,9 @@ create procedure sp_update_journalier
 as
 begin
 	if not exists(select * from t_journalier where id = @id)
-		insert into t_journalier values(@id, @nom, @postnom, @prenom, @lieu_naissance, @date_naissance, @etat_civil, @piece_identite, @numero_piece_identite)
+		insert into t_journalier values(@id, @nom, @postnom, @prenom, @sexe,@lieu_naissance, @date_naissance, @etat_civil, @piece_identite, @numero_piece_identite)
 	else
-		update t_journalier set nom = @nom, postnom = @postnom, prenom = @prenom, lieu_naissance = @lieu_naissance, date_naissance = @date_naissance, etat_civil = @etat_civil, piece_identite = @piece_identite, numero_piece_identite = @numero_piece_identite where id = @id
+		update t_journalier set nom = @nom, postnom = @postnom, prenom = @prenom, sexe=@sexe,lieu_naissance = @lieu_naissance, date_naissance = @date_naissance, etat_civil = @etat_civil, piece_identite = @piece_identite, numero_piece_identite = @numero_piece_identite where id = @id
 end
 
 
