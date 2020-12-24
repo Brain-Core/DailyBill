@@ -24,7 +24,7 @@ The project is public
 
 - Github: @paulmupenda [@paulmupenda](https://github.com/paulmupenda)
 - Twitter: [@paulmupenda](https://twitter.com/paulmupenda)
-- Linkedin: [Paul Mupenda](https://www.linkedin.com/in/paul_mupenda-8271b519a/)
+- Linkedin: [Paul Mupenda](https://www.linkedin.com/in/paul-mupenda/?originalSubdomain=cd)
 
 👤 Gloire Shukuru
 
@@ -33,6 +33,7 @@ The project is public
 - Linkedin: [Gloire Shukuru](https://www.linkedin.com/in/shukuru-gloire-714222187/)
 
 👤 Marie Mibanga
+
 
 - Github: @mariemibanga [@mariemibanga](https://github.com/mariemibanga)
 - Twitter: [@mariemibanga](https://twitter.com/mariemibanga)
